@@ -1,4 +1,4 @@
-from django.core.paginator import EmptyPage,Paginator
+from django.core.paginator import EmptyPage,Paginator,PageNotAnInteger
 from django.shortcuts import render,get_object_or_404
 from .models import Post
 # Create your views here.
@@ -9,6 +9,9 @@ def post_list(request):
     page_number=request.GET.get('page',1)
     try:
         posts=paginator.page(page_number)
+    except PageNotAnInteger:
+        #If page is not the integer , the first page will be shown 
+        posts=paginator.page(1) 
     except EmptyPage:
         #if the page number is out of range get the last page of results
         posts=paginator.page(paginator.num_pages)
