@@ -16,6 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path,include
+from blog import views
 from django.contrib.sitemaps.views import sitemap
 from blog.sitemaps import PostSitemap,TagSitemap
 
@@ -26,6 +27,7 @@ sitemaps={
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('',views.home,name='home'),
     path('blog/',include('blog.urls',namespace='blog')),
     path(
         'sitemap.xml',
