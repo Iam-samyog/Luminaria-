@@ -1,0 +1,1168 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-06-08T15:08:28.411Z",
+    "user": 3,
+    "content_type": 4,
+    "object_id": "1",
+    "object_repr": "samyog",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-06-08T15:10:12.554Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "How Artificial Intelligence Is Reshaping the Human Experience",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-06-08T15:10:42.583Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "The Power of Holistic Health: Healing Mind, Body, and Spirit",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-06-08T15:11:14.204Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "Reinventing Yourself: How to Evolve Without Losing Who You Are",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-06-08T15:11:32.881Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": ": The Education Revolution: From Classrooms to Cloud Learning",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-06-08T15:11:53.328Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "9",
+    "object_repr": "Financial Freedom: Building Wealth One Mindset at a Time",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-06-08T15:12:10.142Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "10",
+    "object_repr": "The Art of Deep Connections in a Shallow World",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-06-08T15:12:26.479Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-06-08T15:12:36.177Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "8",
+    "object_repr": "The Education Revolution: From Classrooms to Cloud Learning",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-06-08T15:13:01.372Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "11",
+    "object_repr": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-06-13T15:36:17.960Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by John on Reinventing Yourself: How to Evolve Without Losing Who You Are",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-06-13T15:36:25.173Z",
+    "user": 3,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Comment by John on Reinventing Yourself: How to Evolve Without Losing Who You Are",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Active\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-06-13T15:59:50.988Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "jazz",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-06-13T16:14:15.108Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "django",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-06-13T16:14:21.651Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "jazz",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-06-13T16:14:27.684Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "music",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-06-13T16:15:14.446Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Health",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Financial Freedom: Building Wealth One Mindset at a Time tagged with Health\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"None tagged with Health\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-06-13T16:15:38.314Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Health",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"The Mystery of Consciousness: What Science Still Can\\u2019t Explain tagged with Health\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-06-13T16:16:10.210Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Finance",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Financial Freedom: Building Wealth One Mindset at a Time tagged with Finance\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-06-13T16:16:41.932Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Tech",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"How Artificial Intelligence Is Reshaping the Human Experience tagged with Tech\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-06-13T16:16:51.125Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Education",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"The Education Revolution: From Classrooms to Cloud Learning tagged with Education\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-06-13T16:17:21.729Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Self-Impro",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"Reinventing Yourself: How to Evolve Without Losing Who You Are tagged with Self-Impro\"}}, {\"added\": {\"name\": \"tagged item\", \"object\": \"The Power of Holistic Health: Healing Mind, Body, and Spirit tagged with Self-Impro\"}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-06-13T16:17:33.054Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Self-Improvement",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-06-13T16:18:14.840Z",
+    "user": 3,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Health",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"name\": \"tagged item\", \"object\": \"The Art of Deep Connections in a Shallow World tagged with Health\", \"fields\": [\"Object ID\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-06-14T07:51:43.604Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Markdown Post",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-06-14T07:51:53.779Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-06-14T07:52:57.309Z",
+    "user": 3,
+    "content_type": 7,
+    "object_id": "12",
+    "object_repr": "Markdown Post",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Body\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2025-06-14T08:08:27.525Z",
+    "user": 3,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "localhost:8000",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Domain name\", \"Display name\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add post",
+    "content_type": 7,
+    "codename": "add_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change post",
+    "content_type": 7,
+    "codename": "change_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete post",
+    "content_type": 7,
+    "codename": "delete_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view post",
+    "content_type": 7,
+    "codename": "view_post"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add comment",
+    "content_type": 8,
+    "codename": "add_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change comment",
+    "content_type": 8,
+    "codename": "change_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete comment",
+    "content_type": 8,
+    "codename": "delete_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view comment",
+    "content_type": 8,
+    "codename": "view_comment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add tag",
+    "content_type": 9,
+    "codename": "add_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change tag",
+    "content_type": 9,
+    "codename": "change_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete tag",
+    "content_type": 9,
+    "codename": "delete_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view tag",
+    "content_type": 9,
+    "codename": "view_tag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add tagged item",
+    "content_type": 10,
+    "codename": "add_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change tagged item",
+    "content_type": 10,
+    "codename": "change_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete tagged item",
+    "content_type": 10,
+    "codename": "delete_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view tagged item",
+    "content_type": 10,
+    "codename": "view_taggeditem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add site",
+    "content_type": 11,
+    "codename": "add_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change site",
+    "content_type": 11,
+    "codename": "change_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete site",
+    "content_type": 11,
+    "codename": "delete_site"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view site",
+    "content_type": 11,
+    "codename": "view_site"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "user2",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2025-05-24T08:33:29.379Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$7MCUQJ8ijOpeNXr5PKzyD0$ME5IBxIxv5ch6uVwZrbwP8UgYQf9jgN7/Pqmgy6LJSI=",
+    "last_login": "2025-06-08T15:08:06.823Z",
+    "is_superuser": true,
+    "username": "Samyog",
+    "first_name": "",
+    "last_name": "",
+    "email": "msamyog37@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2025-06-08T15:07:39.827Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "blog",
+    "model": "post"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "blog",
+    "model": "comment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "taggit",
+    "model": "tag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "taggit",
+    "model": "taggeditem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "sites",
+    "model": "site"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4mjg82nce8edynz16gg4tpilicyp76wn",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hAoDFiX7j0DmWFGqRpISrsy3l2bdKHb_977L5VwXUpau8xpYnVSVh1-N8L8kLoBvmO9NZ1bXeaJ9KbonXZ9aSzP8-7-HRTs5VtnB-QpA7jB2zyaHEOwDkwMPAqK84LEeIzWeEvBAl_FUCAfCWggBvX-ANXJN-g:1uIjuq:6GLl9DnNKy7nN_wnlcYQFZyvGs7Z4C9E0XJ4tyHOt5Y",
+    "expire_date": "2025-06-07T08:07:36.843Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w4y51fa7nhxve7bn555z1001x0qjy339",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCQwoBL9z0DGWZAqoYmpV0Z765NutDtf-_9l4i4rTVuPS9xYnERRpx-t4T0yG0HfMd2myXNbV2mJHdFHrTLceb8vB7u30HFXr81MNEAROwUGFWQnfXZsc9gCUPQ7MxZaV_QICmwCQiSKykPJungDIj3B_0OOD8:1uOHd0:n7geb4R3TG5I_lrbB7yM_jA-6W3imxEshAk4l1LFIiE",
+    "expire_date": "2025-06-22T15:08:06.846Z"
+  }
+},
+{
+  "model": "sites.site",
+  "pk": 1,
+  "fields": {
+    "domain": "localhost:8000",
+    "name": "localhost:8000"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Health",
+    "slug": "health"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 5,
+  "fields": {
+    "name": "Finance",
+    "slug": "finance"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Tech",
+    "slug": "tech"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Education",
+    "slug": "education"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Self-Improvement",
+    "slug": "self-impro"
+  }
+},
+{
+  "model": "taggit.tag",
+  "pk": 9,
+  "fields": {
+    "name": "markdown",
+    "slug": "markdown"
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 4,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 11
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 5,
+  "fields": {
+    "tag": 4,
+    "content_type": 7,
+    "object_id": 10
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 6,
+  "fields": {
+    "tag": 5,
+    "content_type": 7,
+    "object_id": 9
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 7,
+  "fields": {
+    "tag": 6,
+    "content_type": 7,
+    "object_id": 5
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 8,
+  "fields": {
+    "tag": 7,
+    "content_type": 7,
+    "object_id": 8
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 9,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 7
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 10,
+  "fields": {
+    "tag": 8,
+    "content_type": 7,
+    "object_id": 6
+  }
+},
+{
+  "model": "taggit.taggeditem",
+  "pk": 11,
+  "fields": {
+    "tag": 9,
+    "content_type": 7,
+    "object_id": 12
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 5,
+  "fields": {
+    "title": "How Artificial Intelligence Is Reshaping the Human Experience",
+    "slug": "how-artificial-intelligence-is-reshaping-the-human-experience",
+    "author": 3,
+    "body": "Introduction:\r\nWe are living in the age of algorithms—where data, decisions, and even dreams are increasingly shaped by Artificial Intelligence. From smart assistants to medical diagnostics, AI is transforming how we live, work, and think.\r\n\r\nBody:\r\n\r\nHealthcare Revolution: AI is detecting diseases faster and more accurately than ever before, from cancer to Alzheimer’s. It’s becoming a digital doctor’s assistant.\r\n\r\nEducation and Personalized Learning: Adaptive learning platforms like Khan Academy and Duolingo use AI to personalize content delivery.\r\n\r\nEthical Dilemmas: Facial recognition, bias in AI, and surveillance challenge our moral compass. How do we program ethics into code?\r\n\r\nEmployment & Automation: The fear of job displacement is real. However, AI is also creating jobs we never imagined.\r\n\r\nHuman-AI Collaboration: Rather than competition, AI is becoming a partner—enhancing creativity in fields like music, art, and design.\r\n\r\nConclusion:\r\nAI isn’t just about efficiency—it’s about redefining what it means to be human. The future isn’t AI vs. humans, but AI with humans.",
+    "publish": "2025-06-08T15:09:40Z",
+    "created": "2025-06-08T15:10:12.544Z",
+    "updated": "2025-06-08T15:10:12.544Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 6,
+  "fields": {
+    "title": "The Power of Holistic Health: Healing Mind, Body, and Spirit",
+    "slug": "the-power-of-holistic-health-healing-mind-body-and-spirit",
+    "author": 2,
+    "body": "Introduction:\r\nHealth isn't just the absence of disease. It’s the synergy of physical strength, mental peace, and spiritual balance. Holistic health seeks to treat the whole person—not just symptoms.\r\n\r\nBody:\r\n\r\nPhysical Health: Nutrition, exercise, and sleep form the foundation. Yoga and strength training merge ancient wisdom with modern science.\r\n\r\nMental Wellness: Practices like journaling, mindfulness, and therapy have gained ground in fighting anxiety and depression.\r\n\r\nSpiritual Connection: Whether through prayer, meditation, or nature walks, nurturing the spirit gives meaning to life’s chaos.\r\n\r\nHolistic Healing Techniques: Ayurveda, acupuncture, herbal medicine—how traditional methods are gaining mainstream attention.\r\n\r\nLifestyle Integration: Creating a routine that blends physical, mental, and spiritual practices.\r\n\r\nConclusion:\r\nHolistic health isn’t a trend. It’s a return to human wholeness—where true wellness begins.",
+    "publish": "2025-06-08T15:10:12Z",
+    "created": "2025-06-08T15:10:42.576Z",
+    "updated": "2025-06-08T15:10:42.576Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 7,
+  "fields": {
+    "title": "Reinventing Yourself: How to Evolve Without Losing Who You Are",
+    "slug": "reinventing-yourself-how-to-evolve-without-losing-who-you-are",
+    "author": 3,
+    "body": "Introduction:\r\nWe all crave reinvention. New beginnings, second chances, fresh starts. But how do you change your life without becoming someone else?\r\n\r\nBody:\r\n\r\nSelf-Awareness is Step One: Knowing what you want, and more importantly, why you want it.\r\n\r\nBreaking Limiting Beliefs: Challenging the “I’m not good enough” narrative.\r\n\r\nHabit Transformation: How small daily habits like reading, meditating, or exercising lead to large identity shifts.\r\n\r\nFailure as Fuel: Each setback is a signal, not a sentence.\r\n\r\nThe Power of Environment: Your friends, routines, and space affect who you become.\r\n\r\nConclusion:\r\nReinvention isn’t about becoming someone else. It’s about becoming the truest version of you.",
+    "publish": "2025-06-08T15:10:42Z",
+    "created": "2025-06-08T15:11:14.195Z",
+    "updated": "2025-06-08T15:11:14.195Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 8,
+  "fields": {
+    "title": "The Education Revolution: From Classrooms to Cloud Learning",
+    "slug": "the-education-revolution-from-classrooms-to-cloud-learning",
+    "author": 2,
+    "body": "Introduction:\r\nThe chalkboard is out. The screen is in. COVID-19 accelerated what was already underway—a full-blown transformation in how we learn.\r\n\r\nBody:\r\n\r\nRise of E-Learning: Platforms like Coursera, edX, and Khan Academy are replacing traditional gatekeepers.\r\n\r\nHybrid Classrooms: Schools now blend in-person learning with virtual tools like Zoom and Google Classroom.\r\n\r\nGamification and VR: How AR/VR is turning history classes into time travel experiences.\r\n\r\nAI Tutors and Personalized Learning: Smart algorithms adapt to each student’s pace and preferences.\r\n\r\nSkills Over Degrees: The job market is shifting from GPA to Grit, and from resumes to portfolios.\r\n\r\nConclusion:\r\nThe future of education is not confined by walls. It’s global, digital, and personalized.",
+    "publish": "2025-06-08T15:11:14Z",
+    "created": "2025-06-08T15:11:32.869Z",
+    "updated": "2025-06-08T15:12:36.168Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 9,
+  "fields": {
+    "title": "Financial Freedom: Building Wealth One Mindset at a Time",
+    "slug": "financial-freedom-building-wealth-one-mindset-at-a-time",
+    "author": 3,
+    "body": "Introduction:\r\nMoney is more than numbers. It’s a mindset. A behavior. A system. Financial freedom starts when you stop working for money—and make money work for you.\r\n\r\nBody:\r\n\r\nThe Psychology of Wealth: Scarcity vs. abundance mindset.\r\n\r\nBudgeting and Saving: The underrated power of living below your means.\r\n\r\nInvesting Basics: Why compounding interest is the 8th wonder of the world.\r\n\r\nPassive Income: Real estate, stocks, and side hustles that build wealth without active effort.\r\n\r\nAvoiding Debt Traps: Credit cards, loans, and how they silently bleed your future.\r\n\r\nConclusion:\r\nFinancial freedom isn’t a destination—it’s a lifestyle of choices made today for tomorrow’s security.",
+    "publish": "2025-06-08T15:11:33Z",
+    "created": "2025-06-08T15:11:53.316Z",
+    "updated": "2025-06-08T15:11:53.316Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 10,
+  "fields": {
+    "title": "The Art of Deep Connections in a Shallow World",
+    "slug": "the-art-of-deep-connections-in-a-shallow-world",
+    "author": 3,
+    "body": "Introduction:\r\nIn a world of 7-second reels and digital distractions, real connection feels rare. But it’s more needed than ever.\r\n\r\nBody:\r\n\r\nThe Anatomy of Connection: Vulnerability, presence, and empathy.\r\n\r\nDigital vs. Real-Life Friendships: Are online friends as deep as offline ones?\r\n\r\nRomantic Relationships: Communication as the bedrock; love languages as tools.\r\n\r\nFamily Bonds: Healing generational wounds and setting new standards.\r\n\r\nSocial Intelligence: Reading between lines, understanding body language, and active listening.\r\n\r\nConclusion:\r\nTo connect deeply is to live fully. The surface may entertain, but only depth can fulfill.",
+    "publish": "2025-06-08T15:11:53Z",
+    "created": "2025-06-08T15:12:10.133Z",
+    "updated": "2025-06-08T15:12:10.133Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 11,
+  "fields": {
+    "title": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "slug": "the-mystery-of-consciousness-what-science-still-cant-explain",
+    "author": 3,
+    "body": "Introduction:\r\nWe’ve split atoms, mapped genomes, and launched rovers to Mars—but we still don’t understand our own awareness. What is consciousness?\r\n\r\nBody:\r\n\r\nThe Hard Problem: Explaining why subjective experience arises from brain matter.\r\n\r\nNeuroscience and the Brain: What MRIs reveal—and what they don’t.\r\n\r\nQuantum Consciousness Theories: Is the mind linked to the fabric of the universe?\r\n\r\nAI and the Mind: Can machines ever be truly conscious?\r\n\r\nPhilosophy and Spirituality: Perspectives from Descartes to Buddha.\r\n\r\nConclusion:\r\nConsciousness is the final frontier—not outer space. And the more we explore it, the more magical life becomes.",
+    "publish": "2025-06-08T15:12:10Z",
+    "created": "2025-06-08T15:12:26.467Z",
+    "updated": "2025-06-08T15:13:01.363Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 12,
+  "fields": {
+    "title": "Markdown Post",
+    "slug": "markdown-post",
+    "author": 2,
+    "body": "This is a post formatted with markdown\r\n--------------------------------------\r\n*This is emphasized* and **this is more emphasized**.\r\nHere is a list:\r\n\r\n*  One\r\n*  Two\r\n*  Three\r\n\r\nAnd a [link to the Django website](https://www.djangoproject.com/)",
+    "publish": "2025-06-14T07:51:06Z",
+    "created": "2025-06-14T07:51:43.562Z",
+    "updated": "2025-06-14T07:52:57.245Z",
+    "status": "PB"
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 1,
+  "fields": {
+    "post": 11,
+    "name": "Samyog",
+    "email": "mhrznsamyog@gmail.com",
+    "body": "Great blog about Consciousness",
+    "created": "2025-06-13T15:34:28.338Z",
+    "updated": "2025-06-13T15:34:28.338Z",
+    "active": true
+  }
+},
+{
+  "model": "blog.comment",
+  "pk": 2,
+  "fields": {
+    "post": 7,
+    "name": "John",
+    "email": "sxm9167@mavs.uta.edu",
+    "body": "Amazing stuff. Loved it will try it",
+    "created": "2025-06-13T15:36:00.381Z",
+    "updated": "2025-06-13T15:36:25.162Z",
+    "active": true
+  }
+}
+]
