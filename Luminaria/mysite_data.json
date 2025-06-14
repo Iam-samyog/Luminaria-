@@ -98,7 +98,7 @@
     "user": 3,
     "content_type": 7,
     "object_id": "11",
-    "object_repr": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "object_repr": "The Mystery of Consciousness: What Science Still Canï¿½t Explain",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
   }
@@ -124,7 +124,7 @@
     "user": 3,
     "content_type": 7,
     "object_id": "11",
-    "object_repr": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "object_repr": "The Mystery of Consciousness: What Science Still Canï¿½t Explain",
     "action_flag": 2,
     "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
   }
@@ -796,94 +796,6 @@
   }
 },
 {
-  "model": "contenttypes.contenttype",
-  "pk": 1,
-  "fields": {
-    "app_label": "admin",
-    "model": "logentry"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 2,
-  "fields": {
-    "app_label": "auth",
-    "model": "permission"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 3,
-  "fields": {
-    "app_label": "auth",
-    "model": "group"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 4,
-  "fields": {
-    "app_label": "auth",
-    "model": "user"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 5,
-  "fields": {
-    "app_label": "contenttypes",
-    "model": "contenttype"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 6,
-  "fields": {
-    "app_label": "sessions",
-    "model": "session"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 7,
-  "fields": {
-    "app_label": "blog",
-    "model": "post"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 8,
-  "fields": {
-    "app_label": "blog",
-    "model": "comment"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 9,
-  "fields": {
-    "app_label": "taggit",
-    "model": "tag"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 10,
-  "fields": {
-    "app_label": "taggit",
-    "model": "taggeditem"
-  }
-},
-{
-  "model": "contenttypes.contenttype",
-  "pk": 11,
-  "fields": {
-    "app_label": "sites",
-    "model": "site"
-  }
-},
-{
   "model": "sessions.session",
   "pk": "4mjg82nce8edynz16gg4tpilicyp76wn",
   "fields": {
@@ -1034,7 +946,7 @@
     "title": "How Artificial Intelligence Is Reshaping the Human Experience",
     "slug": "how-artificial-intelligence-is-reshaping-the-human-experience",
     "author": 3,
-    "body": "Introduction:\r\nWe are living in the age of algorithms—where data, decisions, and even dreams are increasingly shaped by Artificial Intelligence. From smart assistants to medical diagnostics, AI is transforming how we live, work, and think.\r\n\r\nBody:\r\n\r\nHealthcare Revolution: AI is detecting diseases faster and more accurately than ever before, from cancer to Alzheimer’s. It’s becoming a digital doctor’s assistant.\r\n\r\nEducation and Personalized Learning: Adaptive learning platforms like Khan Academy and Duolingo use AI to personalize content delivery.\r\n\r\nEthical Dilemmas: Facial recognition, bias in AI, and surveillance challenge our moral compass. How do we program ethics into code?\r\n\r\nEmployment & Automation: The fear of job displacement is real. However, AI is also creating jobs we never imagined.\r\n\r\nHuman-AI Collaboration: Rather than competition, AI is becoming a partner—enhancing creativity in fields like music, art, and design.\r\n\r\nConclusion:\r\nAI isn’t just about efficiency—it’s about redefining what it means to be human. The future isn’t AI vs. humans, but AI with humans.",
+    "body": "Introduction:\r\nWe are living in the age of algorithmsï¿½where data, decisions, and even dreams are increasingly shaped by Artificial Intelligence. From smart assistants to medical diagnostics, AI is transforming how we live, work, and think.\r\n\r\nBody:\r\n\r\nHealthcare Revolution: AI is detecting diseases faster and more accurately than ever before, from cancer to Alzheimerï¿½s. Itï¿½s becoming a digital doctorï¿½s assistant.\r\n\r\nEducation and Personalized Learning: Adaptive learning platforms like Khan Academy and Duolingo use AI to personalize content delivery.\r\n\r\nEthical Dilemmas: Facial recognition, bias in AI, and surveillance challenge our moral compass. How do we program ethics into code?\r\n\r\nEmployment & Automation: The fear of job displacement is real. However, AI is also creating jobs we never imagined.\r\n\r\nHuman-AI Collaboration: Rather than competition, AI is becoming a partnerï¿½enhancing creativity in fields like music, art, and design.\r\n\r\nConclusion:\r\nAI isnï¿½t just about efficiencyï¿½itï¿½s about redefining what it means to be human. The future isnï¿½t AI vs. humans, but AI with humans.",
     "publish": "2025-06-08T15:09:40Z",
     "created": "2025-06-08T15:10:12.544Z",
     "updated": "2025-06-08T15:10:12.544Z",
@@ -1048,7 +960,7 @@
     "title": "The Power of Holistic Health: Healing Mind, Body, and Spirit",
     "slug": "the-power-of-holistic-health-healing-mind-body-and-spirit",
     "author": 2,
-    "body": "Introduction:\r\nHealth isn't just the absence of disease. It’s the synergy of physical strength, mental peace, and spiritual balance. Holistic health seeks to treat the whole person—not just symptoms.\r\n\r\nBody:\r\n\r\nPhysical Health: Nutrition, exercise, and sleep form the foundation. Yoga and strength training merge ancient wisdom with modern science.\r\n\r\nMental Wellness: Practices like journaling, mindfulness, and therapy have gained ground in fighting anxiety and depression.\r\n\r\nSpiritual Connection: Whether through prayer, meditation, or nature walks, nurturing the spirit gives meaning to life’s chaos.\r\n\r\nHolistic Healing Techniques: Ayurveda, acupuncture, herbal medicine—how traditional methods are gaining mainstream attention.\r\n\r\nLifestyle Integration: Creating a routine that blends physical, mental, and spiritual practices.\r\n\r\nConclusion:\r\nHolistic health isn’t a trend. It’s a return to human wholeness—where true wellness begins.",
+    "body": "Introduction:\r\nHealth isn't just the absence of disease. Itï¿½s the synergy of physical strength, mental peace, and spiritual balance. Holistic health seeks to treat the whole personï¿½not just symptoms.\r\n\r\nBody:\r\n\r\nPhysical Health: Nutrition, exercise, and sleep form the foundation. Yoga and strength training merge ancient wisdom with modern science.\r\n\r\nMental Wellness: Practices like journaling, mindfulness, and therapy have gained ground in fighting anxiety and depression.\r\n\r\nSpiritual Connection: Whether through prayer, meditation, or nature walks, nurturing the spirit gives meaning to lifeï¿½s chaos.\r\n\r\nHolistic Healing Techniques: Ayurveda, acupuncture, herbal medicineï¿½how traditional methods are gaining mainstream attention.\r\n\r\nLifestyle Integration: Creating a routine that blends physical, mental, and spiritual practices.\r\n\r\nConclusion:\r\nHolistic health isnï¿½t a trend. Itï¿½s a return to human wholenessï¿½where true wellness begins.",
     "publish": "2025-06-08T15:10:12Z",
     "created": "2025-06-08T15:10:42.576Z",
     "updated": "2025-06-08T15:10:42.576Z",
@@ -1062,7 +974,7 @@
     "title": "Reinventing Yourself: How to Evolve Without Losing Who You Are",
     "slug": "reinventing-yourself-how-to-evolve-without-losing-who-you-are",
     "author": 3,
-    "body": "Introduction:\r\nWe all crave reinvention. New beginnings, second chances, fresh starts. But how do you change your life without becoming someone else?\r\n\r\nBody:\r\n\r\nSelf-Awareness is Step One: Knowing what you want, and more importantly, why you want it.\r\n\r\nBreaking Limiting Beliefs: Challenging the “I’m not good enough” narrative.\r\n\r\nHabit Transformation: How small daily habits like reading, meditating, or exercising lead to large identity shifts.\r\n\r\nFailure as Fuel: Each setback is a signal, not a sentence.\r\n\r\nThe Power of Environment: Your friends, routines, and space affect who you become.\r\n\r\nConclusion:\r\nReinvention isn’t about becoming someone else. It’s about becoming the truest version of you.",
+    "body": "Introduction:\r\nWe all crave reinvention. New beginnings, second chances, fresh starts. But how do you change your life without becoming someone else?\r\n\r\nBody:\r\n\r\nSelf-Awareness is Step One: Knowing what you want, and more importantly, why you want it.\r\n\r\nBreaking Limiting Beliefs: Challenging the ï¿½Iï¿½m not good enoughï¿½ narrative.\r\n\r\nHabit Transformation: How small daily habits like reading, meditating, or exercising lead to large identity shifts.\r\n\r\nFailure as Fuel: Each setback is a signal, not a sentence.\r\n\r\nThe Power of Environment: Your friends, routines, and space affect who you become.\r\n\r\nConclusion:\r\nReinvention isnï¿½t about becoming someone else. Itï¿½s about becoming the truest version of you.",
     "publish": "2025-06-08T15:10:42Z",
     "created": "2025-06-08T15:11:14.195Z",
     "updated": "2025-06-08T15:11:14.195Z",
@@ -1076,7 +988,7 @@
     "title": "The Education Revolution: From Classrooms to Cloud Learning",
     "slug": "the-education-revolution-from-classrooms-to-cloud-learning",
     "author": 2,
-    "body": "Introduction:\r\nThe chalkboard is out. The screen is in. COVID-19 accelerated what was already underway—a full-blown transformation in how we learn.\r\n\r\nBody:\r\n\r\nRise of E-Learning: Platforms like Coursera, edX, and Khan Academy are replacing traditional gatekeepers.\r\n\r\nHybrid Classrooms: Schools now blend in-person learning with virtual tools like Zoom and Google Classroom.\r\n\r\nGamification and VR: How AR/VR is turning history classes into time travel experiences.\r\n\r\nAI Tutors and Personalized Learning: Smart algorithms adapt to each student’s pace and preferences.\r\n\r\nSkills Over Degrees: The job market is shifting from GPA to Grit, and from resumes to portfolios.\r\n\r\nConclusion:\r\nThe future of education is not confined by walls. It’s global, digital, and personalized.",
+    "body": "Introduction:\r\nThe chalkboard is out. The screen is in. COVID-19 accelerated what was already underwayï¿½a full-blown transformation in how we learn.\r\n\r\nBody:\r\n\r\nRise of E-Learning: Platforms like Coursera, edX, and Khan Academy are replacing traditional gatekeepers.\r\n\r\nHybrid Classrooms: Schools now blend in-person learning with virtual tools like Zoom and Google Classroom.\r\n\r\nGamification and VR: How AR/VR is turning history classes into time travel experiences.\r\n\r\nAI Tutors and Personalized Learning: Smart algorithms adapt to each studentï¿½s pace and preferences.\r\n\r\nSkills Over Degrees: The job market is shifting from GPA to Grit, and from resumes to portfolios.\r\n\r\nConclusion:\r\nThe future of education is not confined by walls. Itï¿½s global, digital, and personalized.",
     "publish": "2025-06-08T15:11:14Z",
     "created": "2025-06-08T15:11:32.869Z",
     "updated": "2025-06-08T15:12:36.168Z",
@@ -1090,7 +1002,7 @@
     "title": "Financial Freedom: Building Wealth One Mindset at a Time",
     "slug": "financial-freedom-building-wealth-one-mindset-at-a-time",
     "author": 3,
-    "body": "Introduction:\r\nMoney is more than numbers. It’s a mindset. A behavior. A system. Financial freedom starts when you stop working for money—and make money work for you.\r\n\r\nBody:\r\n\r\nThe Psychology of Wealth: Scarcity vs. abundance mindset.\r\n\r\nBudgeting and Saving: The underrated power of living below your means.\r\n\r\nInvesting Basics: Why compounding interest is the 8th wonder of the world.\r\n\r\nPassive Income: Real estate, stocks, and side hustles that build wealth without active effort.\r\n\r\nAvoiding Debt Traps: Credit cards, loans, and how they silently bleed your future.\r\n\r\nConclusion:\r\nFinancial freedom isn’t a destination—it’s a lifestyle of choices made today for tomorrow’s security.",
+    "body": "Introduction:\r\nMoney is more than numbers. Itï¿½s a mindset. A behavior. A system. Financial freedom starts when you stop working for moneyï¿½and make money work for you.\r\n\r\nBody:\r\n\r\nThe Psychology of Wealth: Scarcity vs. abundance mindset.\r\n\r\nBudgeting and Saving: The underrated power of living below your means.\r\n\r\nInvesting Basics: Why compounding interest is the 8th wonder of the world.\r\n\r\nPassive Income: Real estate, stocks, and side hustles that build wealth without active effort.\r\n\r\nAvoiding Debt Traps: Credit cards, loans, and how they silently bleed your future.\r\n\r\nConclusion:\r\nFinancial freedom isnï¿½t a destinationï¿½itï¿½s a lifestyle of choices made today for tomorrowï¿½s security.",
     "publish": "2025-06-08T15:11:33Z",
     "created": "2025-06-08T15:11:53.316Z",
     "updated": "2025-06-08T15:11:53.316Z",
@@ -1104,7 +1016,7 @@
     "title": "The Art of Deep Connections in a Shallow World",
     "slug": "the-art-of-deep-connections-in-a-shallow-world",
     "author": 3,
-    "body": "Introduction:\r\nIn a world of 7-second reels and digital distractions, real connection feels rare. But it’s more needed than ever.\r\n\r\nBody:\r\n\r\nThe Anatomy of Connection: Vulnerability, presence, and empathy.\r\n\r\nDigital vs. Real-Life Friendships: Are online friends as deep as offline ones?\r\n\r\nRomantic Relationships: Communication as the bedrock; love languages as tools.\r\n\r\nFamily Bonds: Healing generational wounds and setting new standards.\r\n\r\nSocial Intelligence: Reading between lines, understanding body language, and active listening.\r\n\r\nConclusion:\r\nTo connect deeply is to live fully. The surface may entertain, but only depth can fulfill.",
+    "body": "Introduction:\r\nIn a world of 7-second reels and digital distractions, real connection feels rare. But itï¿½s more needed than ever.\r\n\r\nBody:\r\n\r\nThe Anatomy of Connection: Vulnerability, presence, and empathy.\r\n\r\nDigital vs. Real-Life Friendships: Are online friends as deep as offline ones?\r\n\r\nRomantic Relationships: Communication as the bedrock; love languages as tools.\r\n\r\nFamily Bonds: Healing generational wounds and setting new standards.\r\n\r\nSocial Intelligence: Reading between lines, understanding body language, and active listening.\r\n\r\nConclusion:\r\nTo connect deeply is to live fully. The surface may entertain, but only depth can fulfill.",
     "publish": "2025-06-08T15:11:53Z",
     "created": "2025-06-08T15:12:10.133Z",
     "updated": "2025-06-08T15:12:10.133Z",
@@ -1115,10 +1027,10 @@
   "model": "blog.post",
   "pk": 11,
   "fields": {
-    "title": "The Mystery of Consciousness: What Science Still Can’t Explain",
+    "title": "The Mystery of Consciousness: What Science Still Canï¿½t Explain",
     "slug": "the-mystery-of-consciousness-what-science-still-cant-explain",
     "author": 3,
-    "body": "Introduction:\r\nWe’ve split atoms, mapped genomes, and launched rovers to Mars—but we still don’t understand our own awareness. What is consciousness?\r\n\r\nBody:\r\n\r\nThe Hard Problem: Explaining why subjective experience arises from brain matter.\r\n\r\nNeuroscience and the Brain: What MRIs reveal—and what they don’t.\r\n\r\nQuantum Consciousness Theories: Is the mind linked to the fabric of the universe?\r\n\r\nAI and the Mind: Can machines ever be truly conscious?\r\n\r\nPhilosophy and Spirituality: Perspectives from Descartes to Buddha.\r\n\r\nConclusion:\r\nConsciousness is the final frontier—not outer space. And the more we explore it, the more magical life becomes.",
+    "body": "Introduction:\r\nWeï¿½ve split atoms, mapped genomes, and launched rovers to Marsï¿½but we still donï¿½t understand our own awareness. What is consciousness?\r\n\r\nBody:\r\n\r\nThe Hard Problem: Explaining why subjective experience arises from brain matter.\r\n\r\nNeuroscience and the Brain: What MRIs revealï¿½and what they donï¿½t.\r\n\r\nQuantum Consciousness Theories: Is the mind linked to the fabric of the universe?\r\n\r\nAI and the Mind: Can machines ever be truly conscious?\r\n\r\nPhilosophy and Spirituality: Perspectives from Descartes to Buddha.\r\n\r\nConclusion:\r\nConsciousness is the final frontierï¿½not outer space. And the more we explore it, the more magical life becomes.",
     "publish": "2025-06-08T15:12:10Z",
     "created": "2025-06-08T15:12:26.467Z",
     "updated": "2025-06-08T15:13:01.363Z",
