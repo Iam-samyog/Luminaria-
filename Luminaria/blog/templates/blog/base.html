@@ -6,14 +6,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %} {% endblock  %}</title>
+
     <link rel="stylesheet" href="{% static 'blog/css/style.css' %}" >
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}" >
+
+   
+   
 </head>
 <body>
-    <div id="content">
+   <div class="container ">
+    <div class="row mt-5">
+
+   
+    <div id="content" class=" col-md-8">
         {% block content %}
         {% endblock %}
     </div>
-    <div id="sidebar">
+    <div id="sidebar" class=" col-md-4">
         <h2>My blog</h2>
         <p>This is my blog
         I've written {% total_posts %} posts so far.
@@ -36,6 +45,10 @@
             {% endfor %}
         </ul>
     </div>
+     </div>
+    </div>
     
+    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'blog/js/script.js' %}"></script>
 </body>
 </html>
