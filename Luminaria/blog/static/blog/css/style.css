@@ -43,10 +43,10 @@ h2 {
 }
 
 p.date {
-  color: #ccc;
-  font-family: georgia, serif;
+ 
+  color:	#ff856f;
   font-size: 12px;
-  font-style: italic;
+  font-style:bold;
 }
 
 .left {
