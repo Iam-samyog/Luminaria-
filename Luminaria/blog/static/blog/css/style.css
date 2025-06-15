@@ -34,6 +34,9 @@ a:hover{
 .bordebelow{
   border-bottom: #303030 4px solid;
 }
+.borderbelowdot{
+  border-bottom: #303030 3px dotted;
+}
 
 
 h2 {

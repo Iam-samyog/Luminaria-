@@ -14,7 +14,7 @@
         </h3>
         {% for post in results %}
         <h4>
-            <a href="{{ post.get_absolute_url }}">
+            <a href="{{ post.get_absolute_url }}" class="custom-link">
                 {{ post.title }}
             </a>
         </h4>
@@ -23,7 +23,7 @@
             <p>There are no results for your query.</p>
         {% endfor %}
         <p>
-            <a href="{% url 'blog:post_search' %}">Search again</a>
+            <a href="{% url 'blog:post_search' %}" class="custom-link">Search again</a>
         </p>
         {% else %}
         <h1>Search for posts</h1>
