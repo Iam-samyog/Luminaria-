@@ -31,7 +31,7 @@
     </h2>
   {% endwith %}  
   {% for comment in comments %}
-    <div class="comment">
+    <div class="comment pb-4 ">
       <p class="info">
         Comment by {{ comment.name }}
         {{ comment.created }}
@@ -42,5 +42,8 @@
     <p>There are no comments</p>
   {% endfor %}
    </div>
+   <div class="pb-5">
   {% include "blog/post/includes/comment_form.html" %}
+   </div>
+  
  {% endblock %}
