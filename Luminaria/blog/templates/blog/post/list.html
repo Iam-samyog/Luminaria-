@@ -4,17 +4,19 @@
 {% block title %} My Blog {% endblock title %}
 
 {% block content %}
-<h1>My blog</h1>
+<h1 class="bordebelow">Luminaria</h1>
 {% if tag %}
     <h2>Posts tagged with "{{ tag.name }}"</h2>
 {% endif %}
 {% for post in posts %}
+<section class="bordebelow py-3">
+
 <h2>
-    <a href="{{ post.get_absolute_url }}">{{ post.title }}</a>
+    <a href="{{ post.get_absolute_url }}" class="custom-headings ">{{ post.title }}</a>
 </h2>
 <p class="tags">Tags:
     {% for tag in post.tags.all %}
-        <a href="{% url 'blog:post_list_by_tag' tag.slug %}">{{ tag.name }}</a>
+        <a href="{% url 'blog:post_list_by_tag' tag.slug %}" class="custom-link ">{{ tag.name }}</a>
         {% if not forloop.last %} ,{% endif %}
     {% endfor %}
 </p>
@@ -22,6 +24,13 @@
     Published {{ post.publish }} by {{ post.author }}
 </p>
 {{ post.body|markdown|truncatewords_html:30 }}
+</section>
 {% endfor %}
-{% include "pagination.html" with page=posts %}
+
+<div class="text-center">
+    {% include "pagination.html" with page=posts %}
+</div>
+
+
+
 {% endblock %}
