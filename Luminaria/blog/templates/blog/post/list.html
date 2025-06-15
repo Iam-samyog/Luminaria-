@@ -1,9 +1,15 @@
+
 {% extends "blog/base.html" %}
+
 {% load blog_tags %}
+
+
 
 {% block title %} My Blog {% endblock title %}
 
 {% block content %}
+ 
+
 <h1 class="bordebelow">Luminaria</h1>
 {% if tag %}
     <h2>Posts tagged with "{{ tag.name }}"</h2>
