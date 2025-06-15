@@ -8,9 +8,15 @@
 
     <link rel="stylesheet" href="{% static 'blog/css/style.css' %}" />
     <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}" />
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+
   </head>
   <body>
-    <div class="body-color ">
+ {% include "blog/post/includes/navbar.html" %}
+
+
+  
+</section>
       <div class="container">
         <div class="row pt-5">
           <div id="content" class="col-md-9 borderight ">
@@ -40,6 +46,18 @@
         </div>
       </div>
     </div>
+    <footer class="py-4" style="background: #121212; color: #E0E0E0; border-top: 1px solid #303030">
+  <div class="container text-center">
+    <p style="font-family:'Lato', sans-serif; margin-bottom: 0">
+      &copy; {{ now.year|default:'2025' }} Luminaria. All Rights Reserved.
+    </p>
+    <div class="social mt-3">
+      <a href="#" style="color: #ff6f61; margin: 0 10px;"><i class="fab fa-facebook-f"></i></a>
+      <a href="#" style="color: #ff6f61; margin: 0 10px;"><i class="fab fa-twitter"></i></a>
+      <a href="#" style="color: #ff6f61; margin: 0 10px;"><i class="fab fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
     <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
     <script src="{% static 'blog/js/script.js' %}"></script>
   </body>
