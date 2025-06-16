@@ -1,0 +1,30 @@
+{% extends "blog/base.html" %}
+{% block title %}Contact{% endblock %}
+
+{% block content %}
+
+{% if sent %}
+<h1>Message successfully sent</h1>
+<p>Your message has been sent. We'll get back to you soon.</p>
+<a href="{% url 'contact' %}" class="custom-link"><i class="bi bi-arrow-left"></i> Send another message</a>
+
+{% else %}
+<h1>Contact Me</h1>
+<p>If you'd like to get in touch — please use the form below.</p>
+
+<form action="" method="post">
+    <div class="row">
+    <div class="col-md-12" >
+    {{ form.as_p }}
+    </div>
+    <div  class="col-md-12 my-4" >
+    {% csrf_token %}
+    
+    <button>Contact us</button>
+    </div>
+    </div>
+</form>
+
+{% endif %}
+
+{% endblock %}

@@ -28,6 +28,7 @@ sitemaps={
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
+    path('contact/', views.contact_view, name='contact'),
     path('blog/',include('blog.urls',namespace='blog')),
     path(
         'sitemap.xml',

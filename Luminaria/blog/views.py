@@ -1,13 +1,13 @@
 from django.core.paginator import EmptyPage,Paginator,PageNotAnInteger
-from django.shortcuts import render,get_object_or_404
+from django.shortcuts import render,get_object_or_404,redirect
 from .models import Post
 from django.views.generic import ListView
-from .forms import EmailPostForm,CommentForm,SearchForm
+from .forms import EmailPostForm,CommentForm,SearchForm,ContactForm
 from django.core.mail import send_mail
 from django.views.decorators.http import require_POST
 from taggit.models import Tag
 from django.db.models import Count
-
+from django.contrib import messages
 from django.contrib.postgres.search import TrigramSimilarity
 
 # Create your views here.
@@ -187,3 +187,31 @@ def post_search(request):
             'results':results
         }
     )
+    
+#contact section
+def contact_view(request):
+    sent=False
+    if request.method == 'POST':
+        form = ContactForm(data=request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            email = form.cleaned_data['email']
+            message = form.cleaned_data['message']
+
+            send_mail(
+                subject=f"Message from {name}",
+                message=f"From: {email}\n\nMessage:\n{message}",
+                from_email=email,
+                recipient_list=['msamyog37@gmail.com'],
+            )
+            sent=True
+           
+    else:
+        form = ContactForm()
+    return render(
+        request,
+        'blog/contact.html',
+        {
+        "form": form,
+        'sent':sent 
+        })
