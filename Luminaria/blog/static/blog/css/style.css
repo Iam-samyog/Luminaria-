@@ -165,3 +165,35 @@ button{
   font-size: 12px;
   color: #ff9f40;;
 }
+.blogshover {
+  display: inline-block;
+  background: #ff9f40;
+  color: #fff;
+  padding: 0.7rem 1.5rem;
+  border-radius: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease; /* transition on transform */
+  transform-origin: center center;
+  transform: scale(1); /* default scale */
+}
+
+.blogshover:hover {
+  background: #ff6f61;
+  color: #fff;
+  transform: scale(1.05); /* scale up smoothly */
+}
+
+.blogshover a {
+  color: #000;
+  text-decoration: none;
+  transition: color 0.3s ease;  /* <- put it here for text color */
+}
+
+
+
+.blogshover:hover a {
+  color: #000;
+}
