@@ -162,7 +162,7 @@ def post_comment(request,post_id):
 
 #search view
 def post_search(request):
-    form=SearchForm
+    form=SearchForm()
     query=None
     results=[]
     
