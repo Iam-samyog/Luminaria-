@@ -23,11 +23,17 @@ h1 {
   color:#FFFFFF;
   text-decoration: none;
 }
+.logo-link:hover{
+ 
+  text-decoration: none;
+
+}
 a:hover{
   color:	#ff856f;
   text-decoration: underline;
 
 }
+
 .borderight{
   border-right: #303030 4px solid;
 }
