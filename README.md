@@ -1,6 +1,7 @@
 # Luminaria
 
-Luminaria is a feature-rich blog application built with Django, CSS, JavaScript, and HTML. It demonstrates a complete blogging platform with modern best practices, optimized for SEO, usability, and extensibility.
+Luminaria is a feature-rich blog application built with Django, CSS, JavaScript, and HTML. It demonstrates a complete blogging platform with modern best practices, optimized for SEO, usability, and extensibility.A lot of resources were used during the process of building this site, mostly Django 5 by Example/ Antonio Melé, documentation and so on . 
+
 
 ## Features
 
