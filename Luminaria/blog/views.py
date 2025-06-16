@@ -15,7 +15,8 @@ from django.contrib.postgres.search import (
 from django.contrib.postgres.search import TrigramSimilarity
 
 # Create your views here.
-
+def home(request):
+    return render(request, 'blog/home.html')
 
 
 def post_list(request,tag_slug=None):

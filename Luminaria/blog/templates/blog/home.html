@@ -1,0 +1,30 @@
+{% load blog_tags %} {% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %} {% endblock %}</title>
+
+    <link rel="stylesheet" href="{% static 'blog/css/style.css' %}" />
+    <link rel="stylesheet" href="{% static 'blog/css/bootstrap.min.css' %}" />
+    <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+  integrity="sha512-p1CmTbz3BeHzZ22nEfF+qZYRgCh6Ukf/rwFD/45aI+xxb1PeRpbFRC6SAwCJ1vIT+/g2fk+T7f7j6jU8K3wYUg=="
+  crossorigin="anonymous"
+  referrerpolicy="no-referrer"
+/>
+
+
+  </head>
+  <body>
+ {% include "blog/post/includes/navbar.html" %}
+ {% include "blog/post/includes/hero.html" %} 
+
+
+
+    <script src="{% static 'blog/js/bootstrap.min.js' %}"></script>
+    <script src="{% static 'blog/js/script.js' %}"></script>
+  </body>
+</html>
