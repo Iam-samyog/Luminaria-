@@ -4,6 +4,7 @@
 {% block title %}Search {% endblock %}
 
 {% block content %}
+
     {% if query %}
         <h1>Post containing "{{ query }}"</h1>
         <h3>
@@ -12,24 +13,27 @@
             {% endwith %}
 
         </h3>
+       
         {% for post in results %}
+        
         <h4>
-            <a href="{{ post.get_absolute_url }}" class="custom-link">
+            <a href="{{ post.get_absolute_url }}" class="custom-headings">
                 {{ post.title }}
             </a>
         </h4>
-        {{ post.body|markdown|truncatewords_html:12 }}
+        <div class="pb-3 bordebelow">
+        {{ post.body|markdown|truncatewords_html:32 }}
+        </div>
         {% empty %}
             <p>There are no results for your query.</p>
+           
         {% endfor %}
         <p>
-            <a href="{% url 'blog:post_search' %}" class="custom-link">Search again</a>
+           
         </p>
-        {% else %}
-        <h1>Search for posts</h1>
-        <form action="" method="'get">
-            {{ form.as_p }}
-            <input type="submit" value="Search">
-        </form>
+       
+
         {% endif %}
+       
+        
 {% endblock %}
