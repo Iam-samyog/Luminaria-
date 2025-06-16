@@ -36,7 +36,7 @@
   {
     particles = [];
 
-    for (let i = 0; i < 200; i++) {
+    for (let i = 0; i < 400; i++) {
       let radius = Math.random() * 3 + 1;
       let x = Math.random() * (canvas.width - radius * 2) + radius;
       let y = Math.random() * (canvas.height - radius * 2) + radius;

@@ -14,6 +14,8 @@ from django.contrib.postgres.search import TrigramSimilarity
 def home(request):
     return render(request, 'blog/home.html')
 
+def about_view(request):
+    return render(request, 'blog/about.html')
 
 def post_list(request,tag_slug=None):
     post_list=Post.published.all()
