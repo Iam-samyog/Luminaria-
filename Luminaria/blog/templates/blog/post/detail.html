@@ -10,7 +10,8 @@
     {{ post.body|markdown }}
   </div >
   <p class="bordebelow pb-3 pt-1">
-    <a href="{% url 'blog:post_share' post.id %}" class="custom-link"><strong>Share this post -></strong></a>
+    <a href="{% url 'blog:post_share' post.id %}" class="custom-link text-xl"><strong>Share this post 
+     <i class="bi bi-box-arrow-up-right icon-gap"></i> </strong></a>
    
   </p>
   <div class=" bordebelow py-4">
